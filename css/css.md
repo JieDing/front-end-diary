@@ -538,3 +538,56 @@ div {
 
 [TBC](https://www.w3schools.com/css/css_text_align.asp)
 
+## Display
+
+The display property is the most important CSS property for controlling layout.
+
+The display property specifies if/how an element is displayed.
+
+Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+
+### Block-level Elements
+
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+Examples of block-level elements:
+
+- `<div>`
+- `<h>`
+- `<p>`
+- `<form>`
+- `<header>`
+- `<footer>`
+- `<section>`
+
+### Inline Elements
+
+An inline element does not start on a new line and only takes up as much width as necessary.
+
+Examples of inline elements:
+
+- `<span>`
+- `<a>`
+- `<img>`
+
+### Display: none;
+
+display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. 
+
+## Max-width
+
+As mentioned in the previous chapter; a block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+Setting the width of a block-level element will prevent it from stretching out to the edges of its container. 
+
+Then, you can set the margins to auto, to horizontally center the element within its container. 
+
+The element will take up the specified width, and the remaining space will be split equally between the two margins:
+
+## Position
+
+The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+### position: static
+
+
